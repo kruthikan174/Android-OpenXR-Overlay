@@ -17,12 +17,14 @@ This repository contains the following structure:
 │   ├── base.apk                # Compiled base application APK
 │   ├── overlay1.apk            # Primary overlay application APK
 │   ├── overlay2.apk            # Secondary overlay application APK
-│   └── overlay3.apk            # Tertiary overlay application APK
+│   ├── overlay3.apk            # Tertiary overlay application APK
+│   └── 3Doverlay.apk           # 3D overlay application APK
 ├── 📁 base/                    # Base application source code
 ├── 📁 overlays/
 │   ├── 📁 overlay1/            # Primary overlay source code
 │   ├── 📁 overlay2/            # Secondary overlay source code
-│   └── 📁 overlay3/            # Tertiary overlay source code
+│   ├── 📁 overlay3/            # Tertiary overlay source code
+│   └── 📁 3Doverlay/           # 3D overlay source code
 └── README.md
 ```
 
@@ -87,6 +89,7 @@ This repository contains the following structure:
    - overlay1.apk
    - overlay2.apk  
    - overlay3.apk
+   - 3Doverlay.apk
 3. Follow installation prompts
 ```
 
@@ -98,6 +101,7 @@ cd apks/
 adb install -r overlay1.apk
 adb install -r overlay2.apk
 adb install -r overlay3.apk
+adb install -r 3Doverlay.apk
 ```
 
 ---
